@@ -11,7 +11,7 @@ const movies = [
         director: "Дени Вильнёв",
         description: "Пол Атрейдес объединяется с фрименами, чтобы отомстить заговорщикам, уничтожившим его семью. Его ждёт выбор между любовью и судьбой всей вселенной.",
         posterUrl: "img/dune.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=Way9Dexny3w"
+        trailerUrl: "https://www.youtube.com/watch?v=vBv8Skz9kTI"
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ const movies = [
         director: "Кристофер Нолан",
         description: "История создания атомной бомбы и её создателя — гениального физика Роберта Оппенгеймера, который сталкивается с моральными последствиями своего открытия.",
         posterUrl: "img/oppenheimer.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=uYPbbksJxIg"
+        trailerUrl: "https://www.youtube.com/watch?v=1QryOAPRd8I"
     },
     {
         id: 3,
@@ -35,7 +35,7 @@ const movies = [
         director: "Грета Гервиг",
         description: "Барби и Кен отправляются в путешествие в реальный мир, где их ждут неожиданные открытия и приключения.",
         posterUrl: "img/barbie.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=pBk4NYhWNMM"
+        trailerUrl: "https://www.youtube.com/watch?v=0mU8bNNSufw"
     },
     {
         id: 4,
@@ -47,7 +47,7 @@ const movies = [
         director: "Чад Стахелски",
         description: "Легендарный киллер продолжает борьбу с Правлением. Джон Уик находит способ обрести свободу, но цена может оказаться слишком высокой.",
         posterUrl: "img/john_wick.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=yjRHZEUamCc"
+        trailerUrl: "https://www.youtube.com/watch?v=04dwrLbAaTE"
     },
     {
         id: 5,
@@ -59,7 +59,7 @@ const movies = [
         director: "Джеймс Ганн",
         description: "Команда Стражей отправляется на спасение Ракеты. Финальная глава их приключений, полная юмора, экшна и неожиданных поворотов.",
         posterUrl: "img/guardians_of_the_galaxy.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=u3V5KDHRQvk"
+        trailerUrl: "https://www.youtube.com/watch?v=2_eT32RQpzo"
     },
     {
         id: 6,
@@ -71,7 +71,7 @@ const movies = [
         director: "Крис Коламбус",
         description: "Мальчик-волшебник поступает в Хогвартс, где находит друзей, магию и сталкивается с тёмными силами.",
         posterUrl: "img/harry_potter.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=VyHV0BRtdxo"
+        trailerUrl: "https://www.youtube.com/watch?v=UygbOjSjIS0"
     },
     {
         id: 7,
@@ -83,7 +83,7 @@ const movies = [
         director: "Джеймс Кэмерон",
         description: "История любви на фоне катастрофы века. Джек и Роуз — два пассажира с разных социальных слоёв, чьи судьбы переплелись на легендарном лайнере.",
         posterUrl: "img/titanic.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=kVrqfYjkTdQ"
+        trailerUrl: "https://www.youtube.com/watch?v=qcU-kWvRcVc&pp=ygUd0KLQuNGC0LDQvdC40Log0YLRgNC10LnQu9C10YA%3D"
     },
     {
         id: 8,
@@ -95,7 +95,7 @@ const movies = [
         director: "Кристофер Нолан",
         description: "Кобб — вор, крадущий секреты из снов. Его последняя миссия — не украсть идею, а внедрить её. Это изменит реальность.",
         posterUrl: "img/inception.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=YoHD9XEInc0"
+        trailerUrl: "https://www.youtube.com/watch?v=85Zz1CCXyDI&pp=ygUM0J3QsNGH0LDQu9C-"
     },
     {
         id: 9,
@@ -107,7 +107,7 @@ const movies = [
         director: "Питер Фаррелли",
         description: "Итальянский вышибала нанимается водителем к темнокожему пианисту в турне по американскому Югу 1960-х. Основано на реальных событиях.",
         posterUrl: "img/green_book.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=QyZKLX3b0l0"
+        trailerUrl: "https://www.youtube.com/watch?v=e6b9urtUJt0&pp=ygUZ0JfQtdC70LXQvdCw0Y8g0LrQvdC40LPQsA%3D%3D"
     },
     {
         id: 10,
@@ -119,7 +119,7 @@ const movies = [
         director: "Тодд Филлипс",
         description: "История происхождения легендарного злодея Готэма — Артура Флека, неудачливого комика, чья жизнь рушится на глазах.",
         posterUrl: "img/joker.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=t433PEQGErc"
+        trailerUrl: "https://www.youtube.com/watch?v=VCMaJLwChfs&pp=ygUM0JTQttC-0LrQtdGA"
     },
     {
         id: 11,
@@ -131,7 +131,7 @@ const movies = [
         director: "Пон Джун-хо",
         description: "Семья бедняков внедряется в дом богатых под видом сотрудников. Остросоциальный триллер с неожиданным финалом.",
         posterUrl: "img/parasite.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=5xH0HfJHsaY"
+        trailerUrl: "https://www.youtube.com/watch?v=GGnM74uxjlo"
     },
     {
         id: 12,
@@ -143,7 +143,7 @@ const movies = [
         director: "Луи Летерье",
         description: "Доминик Торетто и его команда сталкиваются с самым опасным врагом — сыном наркобарона, который жаждет мести.",
         posterUrl: "img/furious.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=aOq49gW0iTs"
+        trailerUrl: "https://www.youtube.com/watch?v=SBZGp9edOVk&pp=0gcJCQQLAYcqIYzv"
     },
     {
         id: 13,
@@ -155,7 +155,7 @@ const movies = [
         director: "Лана Вачовски",
         description: "Нео и Тринити возвращаются в Матрицу. Сможет ли Нео снова стать Избранным в мире, где реальность и иллюзия переплелись?",
         posterUrl: "img/matrix.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=9ix7TUGVYIo"
+        trailerUrl: "https://www.youtube.com/watch?v=urm-n6GMI94&pp=0gcJCQQLAYcqIYzv"
     },
     {
         id: 14,
@@ -167,7 +167,7 @@ const movies = [
         director: "Энтони и Джо Руссо",
         description: "Мстители собираются в последний раз, чтобы отменить действия Таноса и восстановить справедливость во вселенной.",
         posterUrl: "img/the_avengers.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=TcMBFSGVi1c"
+        trailerUrl: "https://www.youtube.com/watch?v=YYlkuaRF44E"
     },
     {
         id: 15,
@@ -179,7 +179,7 @@ const movies = [
         director: "Боб Персикетти, Питер Рэмзи",
         description: "Майлз Моралес становится новым Человеком-пауком и встречает других пауков из параллельных вселенных.",
         posterUrl: "img/spider-man.jpeg",
-        trailerUrl: "https://www.youtube.com/watch?v=lgZlh9cCZZ8"
+        trailerUrl: "https://www.youtube.com/watch?v=qngtmVUvvi0"
     },
     {
         id: 16,
@@ -191,7 +191,7 @@ const movies = [
         director: "Дени Вильнёв",
         description: "Новый репликант — охотник на репликантов находит секрет, который может погрузить общество в хаос.",
         posterUrl: "img/blade_runner.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=gCcx85zbxz4"
+        trailerUrl: "https://www.youtube.com/watch?v=taQW31SVPCk&pp=ygUl0JHQtdCz0YPRidC40Lkg0L_QviDQu9C10LfQstC40Y4gMjA0OQ%3D%3D"
     },
     {
         id: 17,
@@ -203,7 +203,7 @@ const movies = [
         director: "Квентин Тарантино",
         description: "Переплетающиеся истории гангстеров, боксёра и грабителей. Культовый фильм с незабываемыми диалогами.",
         posterUrl: "img/pulp_fiction.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
+        trailerUrl: "https://www.youtube.com/watch?v=vBADUmfa9Q4&pp=ygUj0JrRgNC40LzQuNC90LDQu9GM0L3QvtC1INGH0YLQuNCy0L4%3D"
     },
     {
         id: 18,
@@ -215,7 +215,7 @@ const movies = [
         director: "Шон Леви",
         description: "Дедпул объединяется с Росомахой в новом безумном приключении, ломая четвёртую стену как никогда раньше.",
         posterUrl: "img/deadpool.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=ID7eC4CgH_U"
+        trailerUrl: "https://www.youtube.com/watch?v=5GmXVEBcOpc"
     },
     {
         id: 19,
@@ -227,11 +227,11 @@ const movies = [
         director: "Ридли Скотт",
         description: "Римский генерал Максимус предан, бежит и становится гладиатором, чтобы отомстить коррумпированному императору.",
         posterUrl: "img/gladiator.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=owK1qxDselE"
+        trailerUrl: "https://www.youtube.com/watch?v=F2Dr7Qb2Zf8&pp=ygUg0JPQu9Cw0LTQuNCw0YLQvtGA0YLRgNC10LnQu9C10YA%3D"
     },
     {
         id: 20,
-        title: "Одержимость",
+        title: "Одержимость", 
         year: 2014,
         genre: "Драма",
         rating: 8.5,
@@ -239,7 +239,7 @@ const movies = [
         director: "Дэмьен Шазелл",
         description: "Молодой барабанщик стремится стать великим, но его преподаватель использует жесточайшие методы для воспитания гения.",
         posterUrl: "img/whiplash.jpg",
-        trailerUrl: "https://www.youtube.com/watch?v=Q9PxDPOoZr4"
+        trailerUrl: "https://www.youtube.com/watch?v=Q9PxDPOo1jw&pp=ygUl0L7QtNC10YDQttC40LzQvtGB0YLRjCDRgtGA0LXQudC70LXRgA%3D%3D"
     }
 ];
 
