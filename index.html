@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-кинотеатр</title>
+
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Шапка -->
+        <div class="header">
+            <div class="logo">🎬 MovieCatalog</div>
+            <div class="nav">
+                <a href="index.html">Главная</a>
+                <a href="favorites.html">Избранное (<span id="favorite-count">0</span>)</a>
+                <a href="about.html">О проекте</a>
+                <button id="theme-toggle" class="theme-toggle">🌙</button>
+            </div>
+        </div>
+
+        <!-- Поиск и фильтры -->
+        <div class="search-section">
+            <input type="text" class="search-input" id="search-input" placeholder="Поиск фильмов...">
+            <div class="genre-buttons" id="genre-buttons">
+                <div class="genre-slider" id="genre-slider"></div>
+                <button class="genre-btn active" data-genre="all">Все</button>
+                <button class="genre-btn" data-genre="Боевик">Боевик</button>
+                <button class="genre-btn" data-genre="Комедия">Комедия</button>
+                <button class="genre-btn" data-genre="Драма">Драма</button>
+                <button class="genre-btn" data-genre="Фантастика">Фантастика</button>
+                <button class="genre-btn" data-genre="Триллер">Триллер</button>
+                <button class="genre-btn" data-genre="Криминал">Криминал</button>
+                <button class="genre-btn" data-genre="Мультфильм">Мультфильм</button>
+            </div>
+        </div>
+
+        <!-- Сетка фильмов -->
+        <div class="movies-grid" id="movies-grid">
+            <!-- Здесь будут карточки фильмов -->
+        </div>
+    </div>
+
+    <!-- Модальное окно -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+
+            <div class="modal-layout">
+                <!-- Постер слева -->
+                <div class="modal-poster">
+                    <div id="modal-poster">🎬</div>
+                </div>
+
+                <!-- Информация справа -->
+                <div class="modal-info">
+                    <h2 id="modal-title" class="modal-title"></h2>
+
+                    <div class="modal-meta">
+                        <span class="modal-year" id="modal-year"></span>
+                        <span class="modal-rating" id="modal-rating"></span>
+                    </div>
+
+                    <div class="modal-genre">
+                        <strong>Жанр:</strong> <span id="modal-genre"></span>
+                    </div>
+
+                    <div class="modal-duration">
+                        <strong>Продолжительность:</strong> <span id="modal-duration">—</span>
+                    </div>
+
+                    <div class="modal-director">
+                        <strong>Режиссёр:</strong> <span id="modal-director">—</span>
+                    </div>
+
+                    <div class="modal-description">
+                        <strong>Описание:</strong>
+                        <p id="modal-description"></p>
+                    </div>
+
+                    <div class="modal-actions">
+                        <button class="modal-fav-btn" id="modal-fav-btn">❤️ В избранное</button>
+                        <button class="modal-trailer-btn" id="modal-trailer-btn">🎬 Смотреть трейлер</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">🎬 MovieCatalog</div>
+                <p class="footer-description">
+                    Твой персональный гид в мире кино. Ищи, открывай, сохраняй любимые фильмы.
+                </p>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Навигация</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="favorites.html">Избранное</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">О проекте</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Курсовой проект</a></li>
+                    <li><a href="#">Дисциплина: ИТ и программирование</a></li>
+                    <li><a href="#">СКФУ, 2026</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="footer-title">Контакты</h4>
+                <ul class="footer-links">
+                    <li><a href="#">GitHub: github.com</a></li>
+                    <li><a href="#">Почта: mamiev.ibragin@mail.ru</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 MovieCatalog. Все права защищены. Курсовой проект.</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/favorites.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

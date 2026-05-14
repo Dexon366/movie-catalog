@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О проекте — Интернет-кинотеатр</title>
+
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🎬 MovieCatalog</div>
+            <div class="nav">
+                <a href="index.html">Главная</a>
+                <a href="favorites.html">Избранное (<span id="favorite-count">0</span>)</a>
+                <a href="about.html">О проекте</a>
+                <button id="theme-toggle" class="theme-toggle">🌙</button>
+            </div>
+        </div>
+
+        <div class="about-section">
+            <h1>📽️ О проекте</h1>
+            <p><strong>MovieCatalog</strong> — учебный проект, разработанный в рамках курсовой работы по дисциплине «Информационные технологии и программирование».</p>
+
+            <h2>🎯 Цель проекта</h2>
+            <p>Создание современного, адаптивного веб-интерфейса для интернет-кинотеатра с возможностью поиска, фильтрации и сохранения фильмов в избранное.</p>
+
+            <h2>🛠️ Используемые технологии</h2>
+            <div class="tech-list">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3 (Flexbox/Grid)</span>
+                <span class="tech-tag">JavaScript ES6+</span>
+                <span class="tech-tag">localStorage</span>
+                <span class="tech-tag">Raleway (шрифт)</span>
+                <span class="tech-tag">Git / GitHub</span>
+            </div>
+
+            <h2>✨ Реализованный функционал</h2>
+            <ul>
+                <li>✓ Отображение каталога фильмов (12+ карточек)</li>
+                <li>✓ Поиск по названию</li>
+                <li>✓ Фильтрация по жанру</li>
+                <li>✓ Сортировка по рейтингу</li>
+                <li>✓ Добавление/удаление из избранного</li>
+                <li>✓ Сохранение избранного в localStorage</li>
+                <li>✓ Страница «Избранное»</li>
+                <li>✓ Модальное окно с деталями фильма</li>
+                <li>✓ Адаптивная вёрстка</li>
+                <li>✓ Светлая и тёмная тема</li>
+            </ul>
+
+            <h2>👨‍💻 Разработчик</h2>
+            <p>
+                Студент 1 курса группы ПИЖ-б-о-25-2(2)<br>
+                Направление подготовки 09.03.04 «Программная инженерия»<br>
+                Северо-Кавказский федеральный университет, 2026 г.
+            </p>
+
+            <h2>🔗 Ссылки</h2>
+            <p>
+                <a href="https://github.com" target="_blank">GitHub репозиторий</a><br>
+                <a href="index.html">Вернуться на главную</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/favorites.js"></script>
+    <script src="js/theme.js"></script>
+    <script>
+        // Обновляем счётчик избранного в шапке
+        function updateFavoriteCount() {
+            const stored = localStorage.getItem('movie-favorites');
+            const favorites = stored ? JSON.parse(stored) : [];
+            const countEl = document.getElementById('favorite-count');
+            if (countEl) countEl.textContent = favorites.length;
+        }
+        updateFavoriteCount();
+    </script>
+</body>
+</html>
